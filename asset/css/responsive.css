@@ -1,0 +1,72 @@
+/* PC */
+@media (max-width: 64em ) {
+    
+}
+/* đổi px sang em để tránh lỗi 1 vài trình duyệt không đọc được */
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    
+}
+
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #e46161;
+        padding: 5px 32px;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #content .member-item {
+        margin-top: 0px;
+        width: 50%;
+    }
+    .tickets-list .ticket-item,
+    .address-info, 
+    .supp-info {
+        width: 100%;
+    }
+    .address-info {
+        margin-top: 0px;
+    }
+    .text-supp {
+        padding-top: 24px;
+    }
+    .supp-info .form-send-btn {
+        width: 100%;
+        float: none;
+        margin: auto;
+        margin-top: 12px;
+    }
+    .supp-desc-input {
+        padding: 10px 0;
+    }
+    .supp-name-input {
+        padding-left: 0;
+    }
+    .supp-email-input {
+        padding-right: 0;
+    }
+    .ticket-buy-btn,
+    .limited-ticket-btn {
+        width: 100%;
+    } 
+
+}
