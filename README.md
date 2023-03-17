@@ -3,3 +3,12 @@ Here is a website introducing the movie One Piece Red, using HTML and CSS and ha
 
 ## Images demo
 ![One Piece Red](./asset/img/img_readme/web.jpeg)
+
+### Installation
+A step-by-step guide on how to install the project on a local machine:
+
+1. Clone this repository
+2. Open the repository in Visual Studio Code or another same
+3. Download extensions supported for html and css files
+4. Check links, img, folder...
+5. Start the server with "Go live"
